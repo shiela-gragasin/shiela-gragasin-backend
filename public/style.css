@@ -1,0 +1,107 @@
+body {
+    background: #dce8d4;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center;      /* vertical center */
+    height: 100vh;            /* full screen height */
+    margin: 0;                /* remove default margin */
+}
+
+.window {
+    width: 380px;
+    background: #f2f7ee;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+    overflow: hidden;
+}
+
+.window-header {
+    background: #c2d4be;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.window-header p {
+    margin: 0;
+    color: #263b2d;
+    font-size: 13px;
+}
+
+.dots span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #8ba58b;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #2c3e33;
+}
+
+.subtitle {
+    font-size: 13px;
+    margin: 6px 0;
+    color: #445f4c;
+}
+
+.desc {
+    font-size: 13px;
+    color: #49654d;
+    margin: 10px 0 20px;
+}
+
+.tags {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.tag {
+    background: #c9dbc7;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 6px;
+    color: #263b2d;
+}
+
+.footer-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn {
+    padding: 8px 18px;
+    border: 0;
+    background: #cadcc7;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #2d3c33;
+}
+
+.send {
+    background: #2c4633;
+    color: white;
+}
